@@ -22,7 +22,7 @@ public class DictionaryLoader {
                 dictionary.add(line.toLowerCase());
             }
         } catch (IOException e) {
-            throw new RuntimeException("Error al cargar el diccionario", e);
+            throw new RuntimeException("Error to load dictionary", e);
         }
 
         return dictionary;
